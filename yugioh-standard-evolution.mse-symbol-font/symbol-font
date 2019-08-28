@@ -1,0 +1,262 @@
+﻿mse version: 0.3.8
+version: 2009-11-15
+short name: Evolution
+position hint: 004
+icon: level_icon.png
+installer group: Yugioh/Symbol Fonts/Evolution
+image font size: 16
+horizontal space: 1
+symbol:
+	code: *
+	image: level_icon.png
+	image font size: 30
+symbol:
+	code: ATK
+	image: attack.png
+	image font size: 8
+symbol:
+	code: DEF
+	image: defend.png
+	image font size: 8
+symbol:
+	code: +
+	image: equip.png
+	image font size: 30
+symbol:
+	code: #
+	image: dot.png
+	image font size: 40
+symbol:
+	code: ^
+	image: black_dot.png
+	image font size: 40
+symbol:
+	code: WATER
+	image: water_icon.png
+	image font size: 20
+symbol:
+	code: FIRE
+	image: fire_icon.png
+	image font size: 20
+symbol:
+	code: EARTH
+	image: earth_icon.png
+	image font size: 20
+symbol:
+	code: LIGHT
+	image: light_icon.png
+	image font size: 20
+symbol:
+	code: DARK
+	image: dark_icon.png
+	image font size: 20
+symbol:
+	code: WIND
+	image: wind_icon.png
+	image font size: 20
+symbol:
+	code: DIVINE
+	image: divine_icon.png
+	image font size: 20
+symbol:
+	code: SPELL
+	image: spell_icon.png
+	image font size: 20
+symbol:
+	code: TRAP
+	image: trap_icon.png
+	image font size: 20
+symbol:
+	code: TRAP-SPELL
+	image: trap-spell_icon.png
+	image font size: 20
+symbol:
+	code: Fusion
+	image: fusion.png
+	image font size: 20
+symbol:
+	code: Ritual
+	image: ritual.png
+	image font size: 20
+symbol:
+	code: Aqua-Type
+	image: Aqua-Type.png
+	image font size: 20
+symbol:
+	code: Beast-Type
+	image: Beast-Type.png
+	image font size: 20
+symbol:
+	code: Beast-Warrior-Type
+	image: Beast-Warrior-Type.png
+	image font size: 20
+symbol:
+	code: Creator God-Type
+	image: Creator_God-Type.png
+	image font size: 20
+symbol:
+	code: Dinousaur-Type
+	image: Dinousaur-Type.png
+	image font size: 20
+symbol:
+	code: Divine-Beast-Type
+	image: Divine-Beast-Type.png
+	image font size: 20
+symbol:
+	code: Dragon-Type
+	image: Dragon-Type.png
+	image font size: 20
+symbol:
+	code: Fairy-Type
+	image: Fairy-Type.png
+	image font size: 20
+symbol:
+	code: Fiend-Type
+	image: Fiend-Type.png
+	image font size: 20
+symbol:
+	code: Fish-Type
+	image: Fish-Type.png
+	image font size: 20
+symbol:
+	code: Insect-Type
+	image: Insect-Type.png
+	image font size: 20
+symbol:
+	code: Machine-Type
+	image: Machine-Type.png
+	image font size: 20
+symbol:
+	code: Plant-Type
+	image: Plant-Type.png
+	image font size: 20
+symbol:
+	code: Psychic-Type
+	image: Psychic-Type.png
+	image font size: 20
+symbol:
+	code: Pyro-Type
+	image: Pyro-Type.png
+	image font size: 20
+symbol:
+	code: Reptile-Type
+	image: Reptile-Type.png
+	image font size: 20
+symbol:
+	code: Rock-Type
+	image: Rock-Type.png
+	image font size: 20
+symbol:
+	code: Sea Serpent-Type
+	image: Sea_Serpent-Type.png
+	image font size: 20
+symbol:
+	code: Spellcaster-Type
+	image: Spellcaster-Type.png
+	image font size: 20
+symbol:
+	code: Thunder-Type
+	image: Thunder-Type.png
+	image font size: 20
+symbol:
+	code: Warrior-Type
+	image: Warrior-Type.png
+	image font size: 20
+symbol:
+	code: Winged Beast-Type
+	image: Winged_Beast-Type.png
+	image font size: 20
+symbol:
+	code: Wyrm-Type
+	image: Wyrm-Type.png
+	image font size: 20
+symbol:
+	code: Zombie-Type
+	image: Zombie-Type.png
+	image font size: 20
+symbol:
+	code: ¹
+	image: n1.png
+symbol:
+	code: ²
+	image: n2.png
+symbol:
+	code: ³
+	image: n3.png
+symbol:
+	code: £
+	image: n4.png
+symbol:
+	code: ¢
+	image: n5.png
+symbol:
+	code: ~
+	image: infinity.png
+	image font size: 25
+##############################################################
+# Insert-symbol menu
+insert symbol menu:
+	item: *
+	item: ATK
+	item: DEF
+	item: +
+	item: #
+	item: ^
+	item: ~
+	item:
+		type: line
+	item:
+		name: Attribute
+		item: WATER
+		item: FIRE
+		item: EARTH
+		item: LIGHT
+		item: DARK
+		item: WIND
+		item: DIVINE
+		item: SPELL
+		item: TRAP
+		item: TRAP-SPELL
+	item:
+		type: line
+	item:
+		name: Type
+		item: Aqua-Type
+		item: Beast-Type
+		item: Beast-Warrior-Type
+		item: Creator God-Type
+		item: Dinousaur-Type
+		item: Divine-Beast-Type
+		item: Dragon-Type
+		item: Fairy-Type
+		item: Fiend-Type
+		item: Fish-Type
+		item: Insect-Type
+		item: Machine-Type
+		item: Plant-Type
+		item: Psychic-Type
+		item: Pyro-Type
+		item: Reptile-Type
+		item: Rock-Type
+		item: Sea Serpent-Type
+		item: Spellcaster-Type
+		item: Thunder-Type
+		item: Warrior-Type
+		item: Winged Beast-Type
+		item: Wyrm-Type
+		item: Zombie-Type
+	item:
+		type: line
+	item:
+		name: Summoning
+		item: Fusion
+		item: Ritual
+	item:
+		type: line
+	item:
+		name: Pendulum
+		item: ¹
+		item: ²
+		item: ³
+		item: £
+		item: ¢
